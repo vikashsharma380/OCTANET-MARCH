@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+
+.headerPage {
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url(./pedro-lastra-Nyvq2juw4_o-unsplash.jpg);
+
+   
+
+    background-size: cover;
+    
+    background-position: center;
+    font-family: sans-serif;
+
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+.logo{
+    font-size: 2rem;
+    letter-spacing: 2px;
+
+}
+.logo:hover{
+    transition: 0.8s linear;
+    font-size: 4rem;
+}
+.menu{
+   
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    a{
+         text-decoration: none;
+        color:white;
+        padding: 10px 20px;
+        font-size: 20px;
+        position: relative;
+        
+    }
+}
+
+ .effect:before{
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 0%;
+          height: 100%;
+          border-bottom: 2px solid indianred;
+          transition: 0.4s linear;
+         
+    }
+.effect:hover::before{
+    width: 100%;
+} 
+
+
+/* .effect:hover{
+    color: brown;
+    
+} */
+
+.register{
+    a{
+        text-decoration: none;
+        color:white;
+        padding: 10px 20px;
+        font-size: 20px;
+        background: indianred;
+        border-radius: 10px;
+        
+    }
+}
+.register a:hover{
+    background-color: transparent;
+    border: 1px solid indianred;
+    color: rgb(222, 209, 209);
+}
+
+.centerItem{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+   text-align: center;
+}
+
+.centerItem{
+    span{
+        letter-spacing: 5px;
+    }
+}
+
+.centerItem{
+    h1{
+        font-size: 3.5rem;
+        
+    }
+}
+
+.centerItem{
+    a{
+        text-decoration: none;
+        padding: 10px 20px;
+        background: indianred;
+        color: white;
+        letter-spacing: 5px;
+        border-radius: 10px;
+    }
+}
+
+.centerItem a:hover{
+    background-color: transparent;
+    border: 1px solid indianred;
+    color: rgb(255, 0, 0);
+
+}
+
+
+.centerItem h1:hover{
+    font-size: 4rem;
+    transition: 0.4s linear;
+}
